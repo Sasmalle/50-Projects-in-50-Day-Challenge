@@ -6,7 +6,7 @@ This repository contains the "50 Projects in 50 Days" challenge proposed by [@br
 
 | #   | Project Name                   | Folder Reference         |
 | --- | ------------------------------ | ------------------------ |
-| 01  | Expanding Cards                | [Expanding Card](expanding-cards) |
+| 01  | Expanding Cards                | [Expanding Cards](expanding-cards) |
 | 02  | Progress Steps                 | [Progress Steps]() |
 | 03  | Rotating Navigation Animation  | [Rotating Navigation Animation]() |
 | 04  | Hidden Search Widget           | [Hidden Search Widget]() |
