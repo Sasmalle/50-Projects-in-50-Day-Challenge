@@ -6,3 +6,73 @@ html, body{
     width: 100%;
     height: 100%;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    gap: 10%;
+    overflow: hidden;
+}
+
+.numbersContainer{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #fff;
+    color: #999;
+    border-radius: 50%; 
+    border: 3px solid #e0e0e0;
+    height: 30px;
+    width: 30px;
+}
+
+
+.numberActive{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #fff;
+    color: #999;
+    border-radius: 50%; 
+    border: 3px solid #3498db;
+    height: 30px;
+    width: 30px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 25%;
+}
+
+.buttons button{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 150%;
+    width: 100%;
+    border-radius: 10%;
+    border: none;
+    color: #fff;
+}
+
+.buttonActive{
+    background-color: #3498db;
+    cursor: pointer;
+}
+
+.buttonDisactive{
+    background-color: #e0e0e0;
+    cursor:not-allowed;
+}
